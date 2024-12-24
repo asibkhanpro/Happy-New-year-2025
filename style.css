@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background: #000 !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Poppins' !important;
+    font-size: 18px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.asib {
+	text-align: right;
+	color: #f1df05 !important;
+	font-family: cursive;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.asib a{
+	color: #f1df05 !important;
+	text-decoration: none;
+}
+h4 {
+	margin-bottom: 0;
+}
+
+.main-area h4 {
+	color: #ffee06;
+}
+.happy-new-year-area h1,
+.happy-new-year-area h2{
+	font-weight: 700;
+	font-size: 5em;
+    margin-bottom: 0;
+    display: block;
+}
+.happy-new-year-area h1 {
+	font-family: "Source Sans Pro";
+	text-transform: uppercase;
+    color: #930cb4f3;
+}
+.happy-new-year-area h1 span {
+	border-bottom: 2px solid #930cb4f3;
+	margin: 15px;
+}
+.happy-new-year-area h2 {
+	margin: 50px 0 50px 0;
+	font-family: cursive;
+	color: #00fa92;
+}
+.happy-new-year-area h2 span {
+	border-bottom: 2px solid #00fa92;
+}
+.love {
+	display: inline-block;
+	margin: 0 35px;
+	color: red;
+}
+.countdown-container {
+	display: inline-block;
+}
+
+.time {
+	font-weight: bold;
+	font-size: 3rem;
+	border: 4px solid #96a8a7;
+	border-radius: 1rem;
+	margin: 0 1rem;
+	backdrop-filter: blur(10px);
+	width: 160px;
+}
+.countdown-container span {
+	font-size: 30px;
+	color: #cacaca;
+}
+.timer {
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* social-media */
+
+.social-media-content h2 {
+	color: #00fa92;
+	font-family: cursive;
+	font-weight: 820;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.social-media-icon a {
+    padding: 10px;
+}
+.social-media{
+    position: relative;
+    padding-bottom: 125px;
+}
+.social-media-content {
+	margin-top: 50px;
+	padding: 20px;
+}
+/* social-media */
+
+
+
+
+
+
+.block {
+	position: relative;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 0;
+	width: 41%;
+	height: 160px;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(90px);
+}
+
+.flower-img img {
+	position: absolute;
+	bottom: 0;
+    left: 0;
+	z-index: -11;
+    width: 30%;
+}
